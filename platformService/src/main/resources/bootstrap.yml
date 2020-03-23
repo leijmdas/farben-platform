@@ -1,0 +1,10 @@
+#公共默认配置
+
+spring:
+  application:
+    name: platform-server
+  profiles:
+    active: dev
+server:
+  port: 10091
+  contextPath: /

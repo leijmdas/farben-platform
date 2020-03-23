@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>farben.platform</groupId>
+        <artifactId>farben-parent</artifactId>
+        <version>1.0</version>
+        <relativePath></relativePath>
+    </parent>
+
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>farben.platform</groupId>
+    <artifactId>platform</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+        <module>platformApi</module>
+        <module>platformCommon</module>
+        <module>platformService</module>
+        <module>platformController</module>
+        <module>platformGateway</module>
+    </modules>
+
+    <dependencies>
+
+
+    </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>MyReleasesNexus</id>
+            <name>Nexus Releases Repository</name>
+            <url>http://nexus.akunlong.top:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>MySnapshotNexus</id>
+            <name>Nexus snapshots Repository</name>
+            <url>http://nexus.akunlong.top:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>

@@ -1,0 +1,17 @@
+.settings
+.classpath
+.project
+.factorypath
+.idea
+.sass-cache
+.DS_Store
+.iml
+bin
+target
+*.pdb
+*.log
+*.zip
+~$*.*
+*.tmp
+node_modules
+/logs

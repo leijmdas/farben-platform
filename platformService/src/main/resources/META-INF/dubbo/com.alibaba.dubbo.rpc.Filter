@@ -1,0 +1,1 @@
+dubboRequestFilter =com.farben.platform.dubbo.DubboRequestFilter
